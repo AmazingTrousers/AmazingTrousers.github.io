@@ -1,0 +1,38 @@
+
+    a{color: yellowgreen}
+    body{
+        background-image: url(https://i.kym-cdn.com/entries/icons/original/000/034/246/Untitled.png);
+        background-repeat: repeat;
+        background-size: cover;
+        font-family: arial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .redtext{
+        color: rgb(255, 0, 0);
+        font-weight: bolder;
+        }
+    .videa{
+        width: 550px;
+        height: 320px
+    }
+    .images{
+        width: 300px;
+        height: 120px;
+    }
+    .wewide{
+        width: 100%;
+        flex-grow: 1;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .padesat{
+       justify-content: space-evenly;
+        flex-grow: 1
+    }
+    .sazenice{
+        margin-left: 10%;
+    }
